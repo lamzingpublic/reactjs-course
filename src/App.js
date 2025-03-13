@@ -6,6 +6,7 @@ import Blogs from "./pages/Blogs";
 import About from "./pages/About";
 import NoPage from "./pages/NoPage";
 import BlogDetails from "./pages/BlogDetails";
+import Crud from "./pages/Crud";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="blogs" element={<Blogs />} />
           <Route path="about" element={<About />} />
+          <Route path="crud" element={<Crud />} />
           <Route path="blogdetails" element={<BlogDetails />} />
           <Route path="*" element={<NoPage />} />
         </Route>

@@ -12,6 +12,7 @@ function CustomNavbar() {
           <Nav className="me-auto">
             <Link to="/">Home</Link>
             <Link to="/blogs">Blogs</Link>
+            <Link to="/crud">Crud</Link>
             <Link to="/about">About</Link>
           </Nav>
         </Container>

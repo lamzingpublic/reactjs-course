@@ -12,6 +12,7 @@ const Layout = () => {
             <Nav.Link as={Link} to="/">Home</Nav.Link>
 
             <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
+            <Nav.Link as={Link} to="/crud">CRUD-Firebase</Nav.Link>
 
             <Nav.Link as={Link} to="/About">About</Nav.Link>
 
